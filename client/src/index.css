@@ -7,3 +7,13 @@
 *{
     font-family:Outfit;     /* applying outfit font to all the elements */
 }
+
+/* .grey-placeholder::placeholder{
+  color: #e0e0e0;
+  font-weight: 300;
+} */
+
+.placeholder-color{
+  color: #e0e0e0;
+  font-weight: 300;
+}

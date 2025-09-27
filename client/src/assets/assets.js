@@ -1,5 +1,7 @@
 import logo from './logo.svg'
-import logo_icon from './logo_icon.svg'
+import logo1 from './logo1.png'
+import logo_icon from './logo_icon.png'
+import logo__icon from './logo__icon.png'
 import facebook_icon from './facebook_icon.svg'
 import instagram_icon from './instagram_icon.svg'
 import twitter_icon from './twitter_icon.svg'
@@ -21,7 +23,9 @@ import profile_icon from './profile_icon.png'
 
 export const assets = {
     logo,
+    logo1,
     logo_icon,
+    logo__icon,
     facebook_icon,
     instagram_icon,
     twitter_icon,
@@ -57,25 +61,25 @@ export const stepsData = [
 
 export const testimonialsData = [
     {
-        image:profile_img_1,
-        name:'Donald Jackman',
+        image:profile_icon,
+        name:'Sathwik K',
         role:'Graphic Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`Texel has become my go-to tool for generating creative design concepts. It saves me hours of manual brainstorming and gives me fresh inspiration for every project.`
     },
     {
-        image:profile_img_2,
-        name:'Richard Nelson',
-        role:'Content Creator',
+        image:profile_icon,
+        name:'Mukesh M',
+        role:'Product Developer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`Texel has streamlined my workflow for product visuals and mockups. It's fast, intuitive, and consistently delivers high-quality images that match my ideas perfectly.`
     },
     {
-        image:profile_img_1,
-        name:'Donald Jackman',
-        role:' Graphic Designer',
-        stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        image:profile_icon,
+        name:'Rithesh Kharvi',
+        role:'YouTuber',
+        stars:4,
+        text:`Texel makes creating custom thumbnails effortless. I can now experiment with multiple designs quickly, which has boosted my channel's overall engagement.`
     },
 ]
 
