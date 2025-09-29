@@ -20,8 +20,13 @@ import cross_icon from './cross_icon.svg'
 import star_group from './star_group.png'
 import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
+import image1 from './image1.png'
+import image2 from './image2.png'
+
 
 export const assets = {
+  image1,
+  image2,
     logo,
     logo1,
     logo_icon,

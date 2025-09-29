@@ -8,7 +8,7 @@ const Result = () => {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [isImageLoaded, setIsImageLoaded] = useState(false)
-  const [image, setImage] = useState(assets.sample_img_1)
+  const [image, setImage] = useState(assets.image2)
 
   const { generateImage } = useContext(AppContext)
 

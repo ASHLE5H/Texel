@@ -22,7 +22,7 @@ const BuyCredit = () => {
       description : 'Credits Payment',
       order_id: order.id,
       receipt: order.receipt,
-      handler: async (response) =>{
+      handler: async (response) =>{     //razorpay callback func
         try{
           console.log("inside try")
           const {data} = await axios.post(backendUrl + '/api/user/verify-razor' , response , {headers:{token}})   //verfies payment and gives updated credits
