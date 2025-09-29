@@ -19,9 +19,8 @@ export const generateImage = async (req,res) =>{
         }
 
         const formData = new FormData();
-        console.log(formData)
+        
         formData.append('prompt' ,prompt)
-        console.log(formData)
 
         const {data} = await axios.post('https://clipdrop-api.co/text-to-image/v1' , 
             formData , {
@@ -38,7 +37,7 @@ export const generateImage = async (req,res) =>{
 
         await userModel.findByIdAndUpdate(user._id , {creditBalance:user.creditBalance - 1});
 
-        res.json({succes:true , message : "Image generated" , creditBalance:user.creditBalance - 1 , resultImage} )
+        res.json({success:true , message : "Image generated" , creditBalance:user.creditBalance - 1 , resultImage} )
 
     }catch(error){
         console.log(error);
