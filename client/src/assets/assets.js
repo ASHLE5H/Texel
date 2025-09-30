@@ -1,7 +1,5 @@
-import logo from './logo.svg'
 import logo1 from './logo1.png'
 import logo_icon from './logo_icon.png'
-import logo__icon from './logo__icon.png'
 import facebook_icon from './facebook_icon.svg'
 import instagram_icon from './instagram_icon.svg'
 import twitter_icon from './twitter_icon.svg'
@@ -9,8 +7,6 @@ import star_icon from './star_icon.svg'
 import rating_star from './rating_star.svg'
 import sample_img_1 from './sample_img_1.png'
 import sample_img_2 from './sample_img_2.png'
-import profile_img_1 from './profile_img_1.png'
-import profile_img_2 from './profile_img_2.png'
 import step_icon_1 from './step_icon_1.svg'
 import step_icon_2 from './step_icon_2.svg'
 import step_icon_3 from './step_icon_3.svg'
@@ -25,12 +21,10 @@ import image2 from './image2.png'
 
 
 export const assets = {
-  image1,
-  image2,
-    logo,
+    image1,
+    image2,
     logo1,
     logo_icon,
-    logo__icon,
     facebook_icon,
     instagram_icon,
     twitter_icon,
