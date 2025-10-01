@@ -106,7 +106,7 @@ export const paymentRazorpay = async (req, res) => {
             case 'Basic':
                 plan = 'Basic'
                 credits = 100
-                amount = 10
+                amount = 1
                 break;
 
             case 'Advanced':
@@ -139,7 +139,7 @@ export const paymentRazorpay = async (req, res) => {
 
         // Creating options to create razorpay Order
         const options = {
-            amount: amount * 100,
+            amount: amount * 100,   //converting to paise(razor pay accepts paise)
             currency: process.env.CURRENCY,
             receipt: newTransaction._id,
         }
