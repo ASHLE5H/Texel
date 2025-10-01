@@ -60,7 +60,7 @@ const Header = () => {
         transition={{delay:1 , duration:1}}
       >
         {
-        [assets.sample_img_1 , assets.image2 , assets.image1 , assets.sample_img_2].map((item, index) => (                                               //creates an empty array ['', '', '', '', '', ''] and loops over evry index
+        [assets.sample_img_1 , assets.image2 , assets.image3 , assets.image1 , assets.sample_img_2 ].map((item, index) => (                                               //creates an empty array ['', '', '', '', '', ''] and loops over evry index
                     <motion.img                                                                         // returns img for ecah loop
                         className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10'    
                         width={70}
